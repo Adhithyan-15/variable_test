@@ -33,7 +33,7 @@ jobs:
         env:
          Address: KERALA
         run: echo "Personal Details ",
-         echo "$name",
+         echo "my name is $name",
          echo "$age",
          echo "$Address",
          echo "my repo name is ${{ github.repository }}"
