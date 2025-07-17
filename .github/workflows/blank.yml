@@ -33,9 +33,9 @@ jobs:
         env:
          Address: KERALA
         run: echo "Personal Details ",
-         echo "$name,"
-         echo "$age,"
-         echo "$Address"
+         echo "$name",
+         echo "$age",
+         echo "$Address",
          echo "my repo name is ${{ github.repository }}"
 
       # Runs a set of commands using the runners shell
